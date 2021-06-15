@@ -1,11 +1,21 @@
 ## Build new HMM based eCAMI 06/12/2021
 
+### Building method
 * step1: create a python execution environment based on the Introduction of eCAMI
 * step2: cluster CAZy families, please specify the CAZy family name in clustering.sh.
 `. clustering.sh`
 * step3: build new HMM
 `. hmm_analysis.sh`
-  
+
+### Introduction of exe files 
+* clustering.sh: a shell script to run `clustering.py` by specifying a specific CAZy family.
+* hmm_analysis.sh: a shell script to run a combination python files about building HMM.
+* hmmscan_combine.py: a python script to run hmmscan based on combined hmm files.
+* hmmscan_nocombine.py: a python script to run hmmscan based on no combined hmm files.
+* hmmscan-parser.sh: a shell script to parse the result of hmmscan.
+* hmm_maker.py: a python script to run hmmbuild.
+* EZ_analysis.py: a python script to add EC number into HMM.
+* counter.py: a python script to create two excels. One excel is `cazyfamily,# of proteins,# of eCAMI subfams (exclude unclassified),# of proteins in subfams,# of subfams with EC, # of proteins in subfams with EC`. Another one is `CAZy subfam,# of proteins,# of proteins with EC,after hmmsearch # of remaining proteins,after hmmsearch # of remaining protein domains,after the usearch # of remaining proteins for mafft`
 
 ## eCAMI: Simultaneous Classification and Motif Identification for enzyme/CAZyme annotation<br>
 ### Running Environment<br>
