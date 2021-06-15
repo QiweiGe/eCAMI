@@ -1,4 +1,5 @@
 ## Build new HMM based eCAMI 06/12/2021
+# Flowchart of building
 ![plot](flowchart.jpg)
 
 ### Building method
