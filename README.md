@@ -4,7 +4,7 @@
 
 ### Building method
 * step0: please read the instroduction of eCAMI first.
-* step1: create a python execution environment based on the Introduction of eCAMI. The ouput will be in `examples/clustering/output/dbCAN3_new`. Please copy all of them into `examples/clustering/output/dbCAN3` by using this command 'cp -rfp * ../dbCAN3/'
+* step1: create a python execution environment based on the Introduction of eCAMI. The ouput will be in `examples/clustering/output/dbCAN3_new`. Please copy all of them into `examples/clustering/output/dbCAN3` by using this command `cp -rfp * ../dbCAN3/`
 * step2: cluster CAZy families, please specify the CAZy family name in clustering.sh.
 `. clustering.sh`
 * step3: build new HMM, please specify the CAZy family name in hmm_analysis.sh.
