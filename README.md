@@ -1,3 +1,12 @@
+## Build new HMM based eCAMI 06/12/2021
+
+* step1: create a python execution environment based on the Introduction of eCAMI
+* step2: cluster CAZy families, please specify the CAZy family name in clustering.sh.
+`. clustering.sh`
+* step3: build new HMM
+`. hmm_analysis.sh`
+  
+
 ## eCAMI: Simultaneous Classification and Motif Identification for enzyme/CAZyme annotation<br>
 ### Running Environment<br>
 * Linux environment, Python 3<br>
@@ -7,12 +16,6 @@
 ```
 >unique_sequence_ID followed by a “|” 
 ```
-### Citation<br>
-eCAMI: simultaneous classification and motif identification for enzyme annotation.
-Xu J, Zhang H, Zheng J, Dovoedo P, Yin Y.
-Bioinformatics. 2019 Dec 3. pii: btz908. doi: 10.1093/bioinformatics/btz908. [Epub ahead of print]
-PMID: 31794006
-
 ### Install<br>
 ```
 git clone https://github.com/zhanglabNKU/eCAMI.git
