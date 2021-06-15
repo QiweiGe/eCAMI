@@ -144,5 +144,7 @@ def subfam_counter():
     df.to_csv("cazysubfamily_EC.csv", index=None, header=['CAZy subfam', '# of proteins', '# of proteins with EC', 'after hmmsearch # of remaining proteins', 'after hmmsearch # of remaining protein domains', 'after the usearch # of remaining proteins for mafft'])
 
 if __name__ == '__main__':
+    # create a excel with [cazyfamily,# of proteins,# of eCAMI subfams (exclude unclassified),# of proteins in subfams,# of subfams with EC, # of proteins in subfams with EC]
     counter()
-    #subfam_counter()
+    #create a excel with [ CAZy subfam,# of proteins,# of proteins with EC,after hmmsearch # of remaining proteins,after hmmsearch # of remaining protein domains,after the usearch # of remaining proteins for mafft]
+    subfam_counter()
