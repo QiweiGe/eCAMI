@@ -1,5 +1,5 @@
 ## Build new HMM based eCAMI 06/12/2021
-![plot](flowchart.png)
+![plot](./flowchart.png)
 
 ### Building method
 * step1: create a python execution environment based on the Introduction of eCAMI
