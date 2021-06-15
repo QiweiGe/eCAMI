@@ -3,7 +3,8 @@
 ![plot](flowchart.jpg)
 
 ### Building method
-* step1: create a python execution environment based on the Introduction of eCAMI
+* step0: please read the instroduction of eCAMI first.
+* step1: create a python execution environment based on the Introduction of eCAMI.
 * step2: cluster CAZy families, please specify the CAZy family name in clustering.sh.
 `. clustering.sh`
 * step3: build new HMM, please specify the CAZy family name in hmm_analysis.sh.
