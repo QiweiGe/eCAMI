@@ -78,8 +78,8 @@ def EZ_analysis(folders):
             if refe_ez in name_info:
                 continue
             replace_name = folder + '_eCAMI_' + file_info.split('cluster_')[1] + '.hmm|' + refe_ez
-            #new_hmm_info = hmm_info.replace(file_name, replace_name)
-            new_hmm_info = hmm_info.replace(file_name + target, replace_name)
+            new_hmm_info = hmm_info.replace(file_name, replace_name)
+            #new_hmm_info = hmm_info.replace(file_name + target, replace_name)
             with open(processed_file, 'w') as f:
                 f.write(new_hmm_info)
             f.close()
