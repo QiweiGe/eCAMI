@@ -20,6 +20,17 @@
 * EZ_analysis.py: a python script to add EC number into HMM.
 * counter.py: a python script to create two excels. One excel is `cazyfamily,# of proteins,# of eCAMI subfams (exclude unclassified),# of proteins in subfams,# of subfams with EC, # of proteins in subfams with EC`. Another one is `CAZy subfam,# of proteins,# of proteins with EC,after hmmsearch # of remaining proteins,after hmmsearch # of remaining protein domains,after the usearch # of remaining proteins for mafft`
 
+### Output Path
+* The output of `clustering.sh` is `examples/clustering/output/dbCAN3_new/`. Please copy all of them into `examples/clustering/output/dbCAN3` by using this command `cp -rfp * ../dbCAN3/`.
+* The output of `hmmscan_combine.py` is `hmm_analysis_combinded/cut_domain_seq`.
+* The output of `hmm_maker.py` is `hmm_analysis_combinded/hmm`.
+* The output of `EZ_analysis.py` is `hmm_refe_combine`.
+* The output of `hmmscan_combine.py` is `hmm_analysis_combinded/seq_summary`.
+* The output of `counter.py` is `cazy_family_EC.csv` and `cazysubfamily_EC.csv`.
+
+### Start Point
+Please analyze `cazy_family_EC.csv` and `cazysubfamily_EC.csv` first. If the family hmm is correct, then keep the family hmm. Otherwise, please discuss it with Dr.Yin.
+
 ## eCAMI: Simultaneous Classification and Motif Identification for enzyme/CAZyme annotation<br>
 ### Running Environment<br>
 * Linux environment, Python 3<br>
