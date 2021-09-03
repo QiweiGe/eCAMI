@@ -1,6 +1,14 @@
 ## Build new HMM based eCAMI 06/12/2021
+
 ### Flowchart of building process
 ![plot](flowchart.jpeg)
+
+### How to start:
+* Step1: Please analyze `cazy_family_EC.csv` and `cazysubfamily_EC.csv` first. If the family hmm is correct, then keep the family hmm. Otherwise, please discuss it with Dr.Yin.
+* Step2: Git clone the repo to your environment
+* Step3: Download `original hmm files` to your environment, and the folder should be called `ori_hmm_refe_combine`. Please ask Dr.Yin to get the original hmm files.
+* Step4: Move `examples/clustering/output/dbCAN3_new` and `examples/clustering/output/dbCAN3` from `smallprotein/eCAMI`to your environment.
+* Step5: Read follows.
 
 ### Building method
 * step0: please read the instroduction of eCAMI first.
@@ -27,9 +35,6 @@
 * The output of `EZ_analysis.py` is `hmm_refe_combine`.
 * The output of `hmmscan_combine.py` is `hmm_analysis_combinded/seq_summary`.
 * The output of `counter.py` is `cazy_family_EC.csv` and `cazysubfamily_EC.csv`.
-
-### Start Point
-Please analyze `cazy_family_EC.csv` and `cazysubfamily_EC.csv` first. If the family hmm is correct, then keep the family hmm. Otherwise, please discuss it with Dr.Yin.
 
 ## eCAMI: Simultaneous Classification and Motif Identification for enzyme/CAZyme annotation<br>
 ### Running Environment<br>
